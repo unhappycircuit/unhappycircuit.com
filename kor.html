@@ -15,7 +15,7 @@
     }
 
     .text-box0 {
-      width: 50vw;
+      width: 100%;
       max-width: 900px;
       height: auto;
       border: 2px solid white;
@@ -28,7 +28,7 @@
     }
     
     .text-box1 {
-      width: 50vw;
+      width: 100%;
       max-width: 900px;
       height: auto;
       border: 2px solid white;
@@ -42,14 +42,14 @@
 
     .image0 {
       margin-left: 20px;
-      width: 40vw;
+      width: 100%;
       max-width: 40%;
       height: auto;
       border: 2px solid white;
     }
     
-     .image1 {
-      width: 40vw;
+    .image1 {
+      width: 100%;
       max-width: 40%;
       height: auto;
       border: 2px solid white;
@@ -62,9 +62,23 @@
     }
     
     .center-image img {
-      width: 40vw;
+      width: 100%;
       max-width: 40%;
       border: 2px solid white;
+    }
+
+    @media screen and (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .image0,
+      .image1,
+      .text-box0,
+      .text-box1 {
+        width: 90%;
+        max-width: 100%;
+      }
     }
   </style>
   
