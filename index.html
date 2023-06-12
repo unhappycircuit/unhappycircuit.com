@@ -17,6 +17,12 @@
     height: 100vh;
     font-family: Helvetica, sans-serif;
   }
+  .container {
+    text-align: center; /* 전체 <div>를 가운데 정렬하기 위한 스타일 */
+  }
+  .content {
+    text-align: left; /* <div> 내부 컨텐츠를 왼쪽 정렬하기 위한 스타일 */
+  }
   img {
     width: 500px;
     height: 500px;
@@ -36,13 +42,15 @@
 </style>
 
 <body>
-  <div>
-  <img src="img0.jpg" alt="unhappycircuit">
-  <h1>Unhappy Circuit</h1>
-  <p><a href="kor.html">＞ 한국어</a></p>
-  <p><a href="eng.html">＞ English</a></p>
-  <p><a href="https://www.instagram.com/unhappycircuit/">@unhappycircuit</a></p>
-  <p><a href="unhappycircuit@gmail.com">unhappycircuit@gmail.com</a></p>    
+  <div class="container"> <!-- wrapping <div>에 클래스 추가 -->
+    <div class="content"> <!-- 내부 <div>에 클래스 추가 -->
+      <img src="unhappycircuit.jpg" alt="unhappycircuit">
+      <h1>Unhappy Circuit</h1>
+      <p><a href="kor.html">＞ 한국어</a></p>
+      <p><a href="eng.html">＞ English</a></p>
+      <p><a href="https://www.instagram.com/unhappycircuit/">@unhappycircuit</a></p>
+      <p><a href="unhappycircuit@gmail.com">unhappycircuit@gmail.com</a></p>    
+    </div>
   </div>
 </body>
 
