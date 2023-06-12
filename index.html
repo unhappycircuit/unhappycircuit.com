@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
@@ -26,6 +25,19 @@
     text-align: center;
     font-size: 70px;
   }
+  .div1 {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .div1 p {
+    text-align: left;
+  }
+  .div1 a {
+    text-align: left;
+  }
   a {
     color: white;
     text-decoration: none;
@@ -36,13 +48,15 @@
 </style>
 
 <body>
-  <div>
+  <div class="div1">
     <img src="img0.jpg" alt="unhappycircuit">
     <h1>Unhappy Circuit</h1>
-    <p><a href="kor.html">＞ 한국어</a></p>
-    <p><a href="eng.html">＞ English</a></p>
-    <p><a href="https://www.instagram.com/unhappycircuit/">@unhappycircuit</a></p>
-    <p><a href="unhappycircuit@gmail.com">unhappycircuit@gmail.com</a></p>
+    <div>
+      <p><a href="kor.html">＞ 한국어</a></p>
+      <p><a href="eng.html">＞ English</a></p>
+      <p><a href="https://www.instagram.com/unhappycircuit/">@unhappycircuit</a></p>
+      <p><a href="unhappycircuit@gmail.com">unhappycircuit@gmail.com</a></p>
+    </div>
   </div>
 </body>
 </html>
