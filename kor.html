@@ -1,506 +1,485 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Unhappy Circuit 언해피서킷</title>
-  <link rel="icon" href="./img/favicon.png" type="image/x-icon">
-</head>
-<style>
-
-body {
-  background-color: black;
-  color: white;
-  font-family: 'Nanum Gothic', sans-serif;
-  font-size: 20px;
-  text-align: center;
-  line-height: 1.5;
-  margin: 0;
-  padding: 0;
-}
-
-h1 {
-  text-align: center;
-  font-size: 80px;
-}
-   
-h2 {
-  text-align: center;
-  font-size: 50px;
-}  
+  <head>
+    <title>Unhappy Circuit 언해피서킷</title>
+    <link rel="icon" href="./img/favicon.png" type="image/x-icon">
+  </head>
   
-h3 {
-  text-align: center;
-  font-size: 30px;
-}  
- 
-h4 {
-  text-align: center;
-  font-size: 20px;
-} 
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: 'Nanum Gothic', sans-serif;
+      font-size: 20px;
+      text-align: center;
+      line-height: 1.5;
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      text-align: center;
+      font-size: 80px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 50px;
+    }
+    h3 {
+      text-align: center;
+      font-size: 30px;
+    }
+    h4 {
+      text-align: center;
+      font-size: 20px;
+    }
+    a {
+      color: skyblue;
+      text-decoration: underline;
+    }
+    img.img1 {
+      width: 40%;
+      min-width: 900px;
+      height: auto;
+    }
+    img.img2 {
+      width: 70%;
+      min-width: 900px;
+      height: auto;
+    }
+    img.img3 {
+      width: 90%;
+      min-width: 900px;
+      height: auto;
+    }
+    img.img4 {
+      width: 20%;
+      min-width: 500px;
+      height: auto;
+    }
+    img.img5 {
+      width: 50%;
+      min-width: 900px;
+      height: auto;
+    }
+    img.border {
+      border: 2px solid white;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid white;
+      margin: 20px 0;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 15vh;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .text-container {
+      text-align: left;
+      margin-bottom: 10px;
+    }
+    .text-container p {
+      margin-left: 300px;
+      margin-right: 300px;
+    }
+    @media (max-width: 1080px) {
+      .text-container p {
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+    }
+  </style>
   
-a {
-  color: skyblue;
-  text-decoration: underline;
-}
-  
-img.img1 {
-  width: 40%;
-  min-width: 900px;
-  height: auto;
-}
-
-img.img2 {
-  width: 70%;
-  min-width: 900px;
-  height: auto;
-}
-
-img.img3 {
-  width: 90%;
-  min-width: 900px;
-  height: auto;
-}
-
-img.img4 {
-  width: 20%;
-  min-width: 500px;
-  height: auto;
-}
-
-img.img5 {
-  width: 50%;
-  min-width: 900px;
-  height: auto;
-}
-  
-img.border {
-  border: 2px solid white;
-}
-  
-hr {
-  border: none;
-  border-top: 1px solid white;
-  margin: 20px 0;
-  width: 100%;
-  box-sizing: border-box;
-}
-  
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 15vh;
-  padding: 10px;
-  box-sizing: border-box;
-}
-
-.text-container {
-  text-align: left;
-  margin-bottom: 10px;
-}
-  
-.text-container p {
-  margin-left: 300px;
-  margin-right: 300px;
-}
-  
-@media (max-width: 1080px) {
-  .text-container p {
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-}
-  
-</style>
-</head>
-  
-<body>
-  <img src="./img/0.jpg" class="img1">
-  <h1>Unhappy Circuit</h1>
-  <div class="container">
-    <div class="text-container">
-      <p>
-        언해피서킷은 한국의 다학제 예술가이다. 
-        과학과 예술 그리고 테크놀로지의 융합으로 이루어지는 그의 작업은 언어학, 인류학, 생태학, 미래학 그리고 우주론을 아우르는 다학제적 관점을 기반으로 한다.
-        <br><br>
-        그의 예술이 지닌 궁극적 목표는 바로 ‘인간과 우주의 연결’이다. 그는 예술을 통해 인간의 지각과 의식을 우주로 확장하고, 본질적으로 유한하고 외로운 우리 인간의 삶과 정신 그리고 존재의 의미를 광대한 우주와 연결하고자 하는 것이다. 
-        <br><br>
-        그는 현대자동차 ZER01NE의 크리에이터로 활동 중이며, 월간 퍼블릭아트의 ＜제16회 퍼블릭아트 뉴히어로＞에 선정되었다.
-        또한 그의 작품은 국립아시아문화전당, 한국문화예술위원회, 서울문화재단, C-LAB(대만), BeFantastic(인도), ARCOLABS(인도네시아)와 같은 국내외 예술기관에서 선정 및 전시되었으며, 제주현대미술관에 소장되었다.
-      </p>
+  <body>
+    <img src="./img/0.jpg" class="img1">
+    <h1>Unhappy Circuit</h1>
+    <div class="container">
+      <div class="text-container">
+        <p>
+          언해피서킷은 한국의 다학제 예술가이다. 
+          과학과 예술 그리고 테크놀로지의 융합으로 이루어지는 그의 작업은 언어학, 인류학, 생태학, 미래학 그리고 우주론을 아우르는 다학제적 관점을 기반으로 한다.
+          <br><br>
+          그의 예술이 지닌 궁극적 목표는 바로 ‘인간과 우주의 연결’이다. 그는 예술을 통해 인간의 지각과 의식을 우주로 확장하고, 본질적으로 유한하고 외로운 우리 인간의 삶과 정신 그리고 존재의 의미를 광대한 우주와 연결하고자 하는 것이다. 
+          <br><br>
+          그는 현대자동차 ZER01NE의 크리에이터로 활동 중이며, 월간 퍼블릭아트의 ＜제16회 퍼블릭아트 뉴히어로＞에 선정되었다.
+          또한 그의 작품은 국립아시아문화전당, 한국문화예술위원회, 서울문화재단, C-LAB(대만), BeFantastic(인도), ARCOLABS(인도네시아)와 같은 국내외 예술기관에서 선정 및 전시되었으며, 제주현대미술관에 소장되었다.
+        </p>
+      </div>
     </div>
-  </div>
     
-  <br><br>
-  <hr>
-  <br><br>
-  
-  <h2>1. 인간과 우주의 연결, 2020~</h2>
-  <h3>The connection between humanity and the universe</h3>
-  <div class="container">
-    <div class="text-container">
-      <p>
-        ‘인터스텔라 메시지’란 심우주 통신 기술을 통해 외계지성체에게 도달하는 것을 목표로 하는 일종의 구조화된 데이터를 일컫는다. 2020년도부터 현재까지 언해피서킷은 새로운 인터스텔라 메시지를 개발하기 위한 프로젝트를 진행 중에 있다. 특히 그는 이 과정에서 인간의 언어를 외계지성체에게 이해시키기 위한 방식을 중점적으로 고민해오고 있으며 이를 통해 인간의 사고방식, 정서, 문화 등에 대한 정보를 외계지성체와 공유하고자 한다.
-        <br><br>
-        그는 외계지성체가 인간을 초월한 미지의 존재일 것이라 여기지 않는다. 그는 외계지성체 역시 그들의 행성에 고립된 채 ‘이 우주에 우리 밖에 없을까?’라는 의문을 가지고 우주를 바라보고 있을, 우리와 마찬가지로 우주적 시간과 비교해 찰나의 시간을 살고 사라지는 존재일 것이라 여긴다. 특히 그는 ‘외로움’이라는 감정이야말로 이 우주를 관통하는 핵심이라 믿는다. 그는 결국 인터스텔라 메시지를 통해 광대한 우주를 고군분투하며 살아가는 외로운 존재로서 인간과 외계지성체 사이의 '우주적 공감대'를 형성하고자 하는 것이다. 설령 외계지성체에게 그의 메시지가 닿지 못한다 하더라도, 그는 이러한 노력이 그 자체로 우리 인간의 삶과 정신 그리고 존재의 의미를 광대한 우주와 연결할 수 있는 열쇠가 될 것이라 믿고 있다.
-      </P>
-    </div>
-  </div>
-
-  <br><br>
-  <br>
-
- <!--
- <img src="./img/3-2-2.jpg" class="img2">
-  <div class="container">
-    <div class="text-container">
-      <p>
-        <h3>＜지구의 편지와 시와 노래＞, 2024</h3>
-        <h4>Letters, Poems, and Songs of the Earth</h4>
-        <br>
-        - 외계지성체를 위한 인간언어사전
-        <br>
-        - 사진, 그래픽, 텍스트로 이루어진 디지털 비디오, 인터랙티브 오디오비주얼
-        <br>
-        - 국립과천과학관 전시
-        <br>
-        - 국립과천과학관 제작 지원
-        <br>
-        - 아카이브 비디오: <a href="https://youtu.be/KFVmoo2MDCs" target="_blank">https://youtu.be/KFVmoo2MDCs</a>
-      </p>
-    </div>
-  </div>
-  <div class="container">
-    <div class="text-container">
-      <p>
-        ＜지구의 편지와 시와 노래＞는 외계지성체에게 도달하는 것을 목표로 설계된 멀티모달 데이터이자 학제간 예술 작품이다. 특히 본 작품은 일종의 ‘인간언어사전'을 제공함으로써 외계지성체가 인간의 언어로 표현된 메시지를 해독할 수 있게끔 하는 것을 목표로 한다. 
-        <br><br>
-        천문학자 칼 세이건의 코스모스에 대한 메시지를 시작으로, ＜세계인권선언문＞, 시인 윤동주의 ＜별 헤는 밤＞ 그리고 인공지능 챗GPT가 작성한 ‘사랑'에 대한 정의까지 본 작품은 인간이 지닌 독특한 문화와 개념 그리고 정서를 표현한 여러 텍스트들과 이 텍스트들을 구성하는 어휘에 대한 정보를 외계지성체에게 함께 전달함으로써 궁극적으로 외계지성체가 인간의 언어와 그 언어가 기반하는 인간의 사고방식 그리고 더 나아가 인간 그 자체를 깊이 이해할 수 있게 만드는 것을 목표로 한다. 그리고 이를 통해 외계지성체와 인류가 천문학적 시공간을 넘어 함께 소통하는 미래를 꿈꾼다.
-      </P>
-      </p>
-    </div>
-  </div>
-  
-  <br><br>
-  <br><br>
-  <br>
-
-  <img src="./img/3-2-1.jpg" class="img1">
-  <div class="container">
-    <div class="text-container">
-      <p>
-        <h3>＜사람의 언어와 삶에 대한 우주언어인류학적 데이터＞, 2023</h3>
-        <h4>Astro-linguistic-anthropological Data on Human Language and life</h4>
-        <br>
-        - 외계지성체에게 인간의 언어와 삶에 대한 정보를 전달하기 위해 구성한 멀티모달 데이터
-        <br>
-        - 디지털 사진, 그래픽, 텍스트, 음성 녹음물
-        <br>
-        - 세종문화회관 미술관 전시
-        <br>
-        - 서울문화재단 제작 지원
-        <br>
-        - 아트워크 비디오: <a href="https://youtu.be/NTa6oJFxxlE" target="_blank">https://youtu.be/NTa6oJFxxlE</a>
-      </p>
-    </div>
-  </div>
-  <div class="container">
-    <div class="text-container">
-      <p>
-        ＜사람의 언어와 삶에 대한 우주언어인류학적 데이터＞는 인간의 언어와 삶을 외계지성체가 이해할 수 있게끔 하기 위한 멀티모달 데이터를 개발하고 이를 우주로 전송하는 것을 목표로 하는 다학제 예술 프로젝트이다. 
-        <br><br>
-        인간의 언어와 사고는 서로가 서로에게 영향을 끼치는 긴밀한 상호작용의 관계를 이룬다. 인간을 이해하는데 있어서 언어는 분명 간과해서는 안 될 중요한 요소라 할 수 있는 것이다. 언젠가 외계지성체와 인류가 서로의 존재를 확인하고 둘 사이의 천문학적 시공간을 넘는 대화를 시작하게 되었을 때, 서로의 언어는 서로를 온전히 이해하는 과정에 있어서 반드시 맞닥뜨리게 될 중요한 주제가 될 것이다.
-        이에 본 프로젝트는 외계지성체가 지구의 옛 노래인 ＜노를 저어라＞의 노랫말을 이해할 수 있게끔 하기 위한 일종의 언어 사전을 구성한다. 이 노랫말은 단순한 구조로 이루어진 동시에 인간의 언어와 사고방식이 지닌 독특한 특징을 잘 나타낸다.
-        <br><br>
-        또한 본 프로젝트는 지구에서 이루어지는 한 평범한 인간의 삶의 모습을 외계지성체에게 전한다. 외계지성체와 인류 사이의 유일한 공통점은 어쩌면 한 행성에 고립된 채 찰나와도 같은 시간을 살고 사라지는, 이 광대한 우주에 비해 한없이 미약한 존재라는 것일지도 모른다. 본 프로젝트는 바로 이러한 ‘삶’에 대한 메시지를 우주에 전함으로써 이 우주를 함께 살아가는 모든 외로운 존재들 사이의 '우주적 공감대'를 형성하고자 하는 것이다.
-        <br><br>
-        ‘우주언어인류학’이 탐구하는 주제는 결국 ‘외계지성체와 인간이 서로를 어떻게 이해할 것인가’에 관한 것이다. 이에 대한 답을 찾기 위해서는 무엇보다 ‘인간은 어떠한 존재인가’라는 질문에 대한 우리 자신의 대답을 먼저 고민해야 할 것이다. 우리는 우리 자신에 대해 얼마나 잘 알고 있을까? 그리고 이를 외계지성체에게 어떻게 설명할 것인가? 외계지성체의 언어는 우리에게, 그리고 우리 인간의 언어는 외계지성체에게 얼마나 이상한 언어로 인식될 것인가? 서로의 삶은 얼마나 비슷하고 또 얼마나 다른 모습일까? 과연 이 둘은 서로의 생물학적, 언어적, 문화적 그리고 정신적 차이를 극복하고 서로를 이해할 수 있게 될까? 이해한다는 것은 과연 무엇을 의미하는 것일까? 본 프로젝트는 바로 이러한 근원적 질문들을 탐구함으로써 우리 자신에 대한 우주적 관점으로의 전환을 유도하는 한편, 언어와 소통 그리고 이해에 관한 우리의 인식을 확장해 나가는 동시에, 인간의 삶과 정신 그리고 존재의 의미를 광대한 우주와 연결한다.
-      </P>
-      </p>
-    </div>
-  </div>
-  
-  <br><br>
-  <br><br>
-  <br>
-  -->
-  
-  <img src="./img/3-1-1.jpg" class="border img4">
-  <br><br>
-  <img src="./img/3-1-2.jpg" class="img2">
-  <br><br>
-  <img src="./img/3-1-3.jpg" class="border img2">
-  <div class="container">
-    <div class="text-container">
-      <p>
-        <h3>＜1 HUMAN MESSAGE＞, 2023</h3>
-        <br>
-        - 외계지성체에게 한 인간이 살아온 시간에 대한 정보를 전달하기 위해 구성한 텍스트 데이터와 이를 우주로 전송한 기록
-        <br>
-        - 디지털 텍스트 데이터, 전자 장치, 기록 사진
-        <br>
-        - 과학책방 갈다, Institut Français Indonesia(인도네시아) 전시
-        <br>
-        - 한국문화예술위원회 제작 지원
-        <br>
-        - 아트워크 비디오: <a href="https://youtu.be/jkJVDbeOHIs" target="_blank">https://youtu.be/jkJVDbeOHIs</a>
-      </p>
-    </div>
-  </div>
-  <div class="container">
-    <div class="text-container">
-      <p>
-        광대한 우주에 비해 우리 인간은 찰나와도 같은 시간을 살고 사라진다. 이 우주에서 인간은 본질적으로 유한하고 미약하며 외로운 존재인 것이다. 그렇기 때문에 우리는 본능적으로 우주와 연결될 수 있기를 바란다. 찰나와 같은 우리의 삶이 이 우주에서 어떤 의미를 지닐 수 있기를 바라기 때문이다.
-        <br><br>
-        프로젝트 ＜1 HUMAN MESSAGE＞는 한 인간이 살아온 ‘시간’에 대한 짧은 기록이자 데이터인 ＜1 HUMAN MESSAGE＞를 광대한 우주에 남기기 위한 다원 우주예술 프로젝트이다. ＜1 HUMAN MESSAGE＞는 지구의 한 평범한 인간이 존재한 시간을 우주적 시간과 연결한다. 그리고 언해피서킷은 직접 제작한 이동식 심우주 데이터 송수신 장치를 가지고 지구 곳곳을 여행하며 우주를 향해 이 메시지를 전송하는 작업을 수행한다. 이는 한 인간으로서 가장 먼 우주까지 도달하고자 하는 노력이자, 우주로부터 시작되었지만 언젠가부터 우주와 단절된 모든 인간의 삶과 정신 그리고 존재의 의미를 우주로 확장하기 위함인 동시에, 거대한 침묵을 넘어 이 우주의 모든 외로운 존재들의 우주적 연결을 이루기 위한 여정이다.
-      </p>
-    </div>
-  </div>
- 
-  <br><br>
-  <hr>
-  <br><br>
-
-  <!--
-  <div class="container">
-    <div class="text-container">
-      <p>
-        <h3>＜지구 언어로 쓰인 인터스텔라 메시지＞ 연작, 2020~2022</h3>
-        <h4>Series of ＜Interstellar Message Written in Languages of the Earth＞</h4>
-      </p>
-      <P>
-        언어는 그 언어를 사용하는 존재의 사고방식과 정서 그리고 문화와 상호작용한다. 이는 다른 존재를 진정으로 이해하기 위해서는 그 존재의 언어를 이해할 수 있어야 함을 의미한다.
-        <br><br>
-        본 연작은 외계지성체와의 소통을 위해 인간의 언어에 대한 구조화된 정보를 담은 ‘인터스텔라 메시지’를 발전시켜가는 과정이다. 
-        특히 지구 언어의 다양성과 고유성을 인터스텔라 메시지에 반영하기 위해 소외된 세계의 언어들에 대한 관심을 지속적으로 확장해나가고 있다.
-        <br><br>
-        또한 본 연작은 지구의 기후 변화에 대한 메시지를 우주에 전한다. 인류의 현재를 상징하는 이 메시지는 이 우주를 살아가는 문명 대 문명으로서 외계지성체와 인류 사이의 공감대를 형성하는 동시에, 
-        인류에 대한 우리 스스로의 관점을 외계지성체의 관점, 즉 우주적 관점으로 전환한다. 먼 우주를 향하는 인터스텔라 메시지는 사실 우리 자신을 향하는 우주의 메아리이다.
-      </P>
-    </div>
-  </div>
-
-  <img src="./img/3-0-2.jpg" class="img2">
-  <div class="container">
-    <div class="text-container">
-      <p>
-        <h3>＜9개의 지구 언어로 쓰인 인터스텔라 메시지＞, 2022</h3>
-        <h4>Interstellar Message Written in 9 Languages of the Earth</h4>
-        <br>
-        - 외계지성체에게 인간의 언어와 인류 문명에 관한 정보를 전달하기 위한 2차원의 디지털 데이터
-        <br>
-        - 1채널 비디오, 2채널 사운드, 14분 56초
-        <br>
-        - C-LAB(대만) 전시
-        <br>
-        - 국립아시아문화전당 제작 지원
-        <br>
-        - 아카이브 영상: <a href="https://youtu.be/43SlQ2M4nTg" target="_blank">https://youtu.be/43SlQ2M4nTg</a>
-      </p>
-    </div>
-  </div>
-
-  <br><br>
-  <br><br>
+    <br><br>
+    <hr>
+    <br><br>
     
-  <img src="./img/3-0-1.jpg" class="img2">
-  <div class="container">
-    <div class="text-container">
-      <p>
-        <h3>＜한글로 쓰인 별 사이 쪽글＞, 2020</h3>
-        <h4>Interstellar Message Written in Hangeul</h4>
-        <br>
-        - 외계지성체에게 인간의 언어와 인류 문명에 관한 정보를 전달하기 위한 1차원의 디지털 데이터
-        <br>
-        - 디지털 텍스트, 3채널 비디오, 2채널 사운드, 32분
-        <br>
-        - 국립중앙도서관, 현대자동차 ZER01NE 전시
-        <br>
-        - 현대자동차 ZER01NE 제작 지원
-        <br>
-        - 아카이브 영상: <a href="https://youtu.be/wvC5neCteEs" target="_blank">https://youtu.be/wvC5neCteEs</a>
-      </p>
+    <h2>1. 인간과 우주의 연결, 2020~</h2>
+    <h3>The connection between humanity and the universe</h3>
+    <div class="container">
+      <div class="text-container">
+        <p>
+          ‘인터스텔라 메시지’란 심우주 통신 기술을 통해 외계지성체에게 도달하는 것을 목표로 하는 일종의 구조화된 데이터를 일컫는다. 2020년도부터 현재까지 언해피서킷은 새로운 인터스텔라 메시지를 개발하기 위한 프로젝트를 진행 중에 있다. 특히 그는 이 과정에서 인간의 언어를 외계지성체에게 이해시키기 위한 방식을 중점적으로 고민해오고 있으며 이를 통해 인간의 사고방식, 정서, 문화 등에 대한 정보를 외계지성체와 공유하고자 한다.
+          <br><br>
+          그는 외계지성체가 인간을 초월한 미지의 존재일 것이라 여기지 않는다. 그는 외계지성체 역시 그들의 행성에 고립된 채 ‘이 우주에 우리 밖에 없을까?’라는 의문을 가지고 우주를 바라보고 있을, 우리와 마찬가지로 우주적 시간과 비교해 찰나의 시간을 살고 사라지는 존재일 것이라 여긴다. 특히 그는 ‘외로움’이라는 감정이야말로 이 우주를 관통하는 핵심이라 믿는다. 그는 결국 인터스텔라 메시지를 통해 광대한 우주를 고군분투하며 살아가는 외로운 존재로서 인간과 외계지성체 사이의 '우주적 공감대'를 형성하고자 하는 것이다. 설령 외계지성체에게 그의 메시지가 닿지 못한다 하더라도, 그는 이러한 노력이 그 자체로 우리 인간의 삶과 정신 그리고 존재의 의미를 광대한 우주와 연결할 수 있는 열쇠가 될 것이라 믿고 있다.
+        </p>
+      </div>
     </div>
-  </div>
     
-  <br><br>
-  <hr>
-  <br><br>
-  -->
-  
-  <h2>2. 인공지능, 2018~2019</h2>
-  <div class="container">
-    <div class="text-container">
-      <p>
-        2018년에서 2019년 사이에 언해피서킷은 그의 작품의 주요한 주제이자 매체로서 ‘인공지능’에 집중하였다. 
-        그는 인공지능을 ‘새로운 인간으로서의 인공지능’, ‘인간을 보완하는 테크놀로지로서의 인공지능’ 그리고 ‘인간을 비추는 거울과 같은 존재로서의 인공지능’이라는 세가지의 큰 관점으로 구분한다.
-        <br><br>
-        먼저 ‘새로운 인간으로서의 인공지능’이라 함은 말그대로 인간과 같은 혹은 인간을 초월하는 존재로 진화한 새로운 지적 존재로서의 인공지능을 의미한다. 즉, 진정한 포스트 휴먼으로서의 인공지능을 의미하는 것이다. 
-        반면 ‘인간을 보완하는 테크놀로지로서의 인공지능’은 인공지능을 하나의 새로운 도구로서 인식하는 관점을 의미한다. 앞선 관점이 SF적 미래관에 기반한 관점이라면, 도구로서의 인공지능은 현 시대의 인공지능에 대한 관점이다. 
-        마지막으로 ‘인간을 비추는 거울로서의 인공지능’은 인공지능에 대한 인문학적 또는 예술적 관점이자 해석이다. 인공지능이 학습하는 데이터는 사실 우리 인간에 관한 것이다. 
-        인공지능은 데이터를 통해 바로 우리 인간에 대해 학습을 하고 있는 것이다. 이러한 인공지능이 생성한 결과물은 그 자체로 우리 인간의 모습을 거울처럼 드러낸다.
-        <br><br>
-        결국 언해피서킷에게 인공지능은 언젠가 새로운 인간이 될지도 모를 가능성을 지닌 존재인 동시에, 현재 우리의 삶에 가장 큰 영향을 끼치는 테크놀로지인 한편, 우리 인간의 모습을 비추며 ‘인간성이란 무엇인가?’에 대해 질문하는 예술적 매개체이다.
-      </p>
-    </div>
-  </div>
-
-  <br><br>
-  <br><br>
-
-  <img src="./img/2-3.jpg" class="img2">
-  <div class="container">
-    <div class="text-container">
-      <p>
-        <h3>＜A Synthetic Song Beyond the Sea＞, 2019</h3>
-        <br>
-        - 인공지능을 활용해 흰수염고래의 발성음과 인간의 음악을 합성하여 만든 앰비언트 음악
-        <br>
-        - 2채널 프로젝션, 2채널 사운드, 4분 29초
-        <br>
-        - 제주현대미술관 소장
-        <br>
-        - 제주현대미술관, APAP7, 부천아트벙커 B39, 아트센터나비, Bangalore International Centre(인도) 전시
-        <br>
-        - 한국콘텐츠진흥원 및 아트센터나비 제작 지원
-        <br>
-        - 아카이브 영상: <a href="https://youtu.be/SmEvkJTvBaA" target="_blank">https://youtu.be/SmEvkJTvBaA</a>
-      </p>
-    </div>
-  </div>
-  <div class="container">
-    <div class="text-container">
-      <p>
-        고래는 인간과 마찬가지로 감정을 느끼고 표현할 수 있으며, 복잡한 사회를 이루며 살아가고, 소통을 위한 언어 체계를 가지고 있다. 그리고 인간을 포함한 지구 상의 모든 포유류와 한 조상을 공유하며 함께 진화해왔다.
-        하지만 인간은 오래전부터 고래의 생존을 위협해왔으며 이는 오늘날까지도 여전히 지속되고 있다. 
-        <br><br>
-        본 작품은 인공지능을 활용해 흰수염고래의 발성음과 인간의 음악을 합성하여, 고래와 인간이 함께 듣고 교감할 수 있는 새로운 차원의 음악을 만들어내고자 한 시도이다. 이를 통해 본 작품은 고래와 인간이 서로를 이해하며 함께 공존해나가는 미래를 그린다. 
-        <br><br>
-        고래의 삶과 죽음을 통해 우리는 인간성의 진실한 모습을 마주할 수 있게 된다. 이는 서로를 이해하지 못해 일어난 인류 역사의 수많은 비극과 여전히 우리 스스로를 파괴할 가능성을 지닌 채 살아가는 현대 인류 문명의 모습과도 결코 무관하지 않다.
-      </p>
-    </div>
-  </div>
-  
-  <br><br>
-  <br><br>
-
-  <img src="./img/2-2.jpg" class="img2">
-  <div class="container">
-    <div class="text-container">
-      <p>
-        <h3>＜Learning About Humanity＞, 2019</h3>
-        <br>
-        - 인공지능이 생성한 레시피를 따라 닭고기 음식을 요리하는 퍼포먼스
-        <br>
-        - 라이브 퍼포먼스, 2채널 프로젝션, 4채널 사운드, 20분
-        <br>
-        - 국립아시아문화전당, 인사미술공간 전시
-        <br>
-        - 국립아시아문화전당 제작 지원
-        <br>
-        - 아카이브 영상: <a href="https://youtu.be/95iyi_BfDN4" target="_blank">https://youtu.be/95iyi_BfDN4</a>
-      </p>
-    </div>
-  </div>
-  <div class="container">
-    <div class="text-container">
-      <p>
-        한해 약 650억 마리가 도축되는 닭은 ‘인류세’의 상징으로 여겨진다. 이처럼 닭고기로 대표되는 풍요의 시대가 지속되면서, 우리는 일상에서 흔히 접하는 고기가 한때는 살아있는 생물이었다는 사실도 망각하게 된다. 
-        무엇보다 가축의 사육 및 도축 과정에서 필연적으로 발생하지만 우리가 애써 외면해온 불편한 진실은 우리 스스로에게 인간성에 대해 다시금 질문하게 만든다.
-        <br><br>
-        인공지능은 방대한 양의 데이터를 통해 바로 우리 인간을 학습한다. 이러한 인공지능이 생성한 결과물은 그 자체로 우리 인류의 모습을 거울처럼 비춘다. 
-        결국 인공지능이 생성한 닭고기 요리는 풍요로운 현대 인류 문명의 이면에 감춰진 인간성의 진실한 모습을 드러내는 ‘인간성의 거울’이다.
-      </p>
-    </div>
-  </div>
+    <br><br>
+    <br>
     
-  <br><br>
-  <br><br>
-
-  <img src="./img/2-1.jpg" class="img2">
-  <div class="container">
-    <div class="text-container">
-      <p>
-        <h3>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp ＜i Remember＞, 2019 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</h3>
-        <br>
-        - 인간의 기억을 학습한 인공지능이 생성한 이미지와 사운드
-        <br>
-        - 1채널 비디오, 2채널 사운드, 20분
-        <br>
-        - 플랫폼엘 컨템포러리 아트센터 전시
-        <br>
-        - 한국문화예술위원회 제작 지원
-        <br>
-        - 아카이브 영상: <a href="https://youtu.be/ncnhnyX4WmY" target="_blank">https://youtu.be/ncnhnyX4WmY</a>
-      </p>
+    <!--
+    <img src="./img/3-2-2.jpg" class="img2">
+    <div class="container">
+      <div class="text-container">
+        <p>
+          <h3>＜지구의 편지와 시와 노래＞, 2024</h3>
+          <h4>Letters, Poems, and Songs of the Earth</h4>
+          <br>
+          - 외계지성체를 위한 인간언어사전
+          <br>
+          - 사진, 그래픽, 텍스트로 이루어진 디지털 비디오, 인터랙티브 오디오비주얼
+          <br>
+          - 국립과천과학관 전시
+          <br>
+          - 국립과천과학관 제작 지원
+          <br>
+          - 아카이브 비디오: <a href="https://youtu.be/KFVmoo2MDCs" target="_blank">https://youtu.be/KFVmoo2MDCs</a>
+        </p>
+      </div>
     </div>
-  </div>
-  <div class="container">
-    <div class="text-container">
-      <p>
-        우리 인간에게 있어 기억이란 곧 자신의 정체성을 의미한다. 기억을 잃는다는 것은 결국 자신 자신을 잃는다는 것과 같은 것이다. 기억은 결국 우리의 인생 그 자체이다. 
-        하지만 인간의 기억은 불완전하다. 그렇기 때문에 인간은 오래 전부터 각종 매체에 자신의 기억을 기록하고 보존해왔다. 선사시대의 동굴 벽화에서부터 컴퓨터 메모리에 이르기까지, 기술의 발전과 함께 인간은 기억을 저장하는 뇌의 영역을 새로운 매체로 확장시키며 급격히 진화해온 것이다. 
-        <br><br>
-        그리고 이러한 인간의 진화는 이제 인공지능에까지 확장되고 있다. 과연 기억에는 그 경험의 순간만이 가지는 형언할 수 없는 특성이 존재하는 것일까? 아니면 언제나 복사와 전송이 가능한 데이터에 불과한 것일까? 
-        만약 기억이 데이터에 불과하다면, 인공지능은 인간의 기억을 학습할 수 있을까? 만약 인공지능이 인간의 기억을 학습할 수 있다면, 나의 기억을 학습한 인공지능은 바로 ‘나’인가?
-        <br><br>
-        본 작품에서 인공지능은 바로 작가의 어머니에 대한 디지털화된 기억 데이터를 학습하고 이를 바탕으로 새로운 이미지와 사운드를 생성해낸다. 이 생성물은 작가의 기억인가? 아니면 인공지능의 기억인가?
-      </p>
+    <div class="container">
+      <div class="text-container">
+        <p>
+          ＜지구의 편지와 시와 노래＞는 외계지성체에게 도달하는 것을 목표로 설계된 멀티모달 데이터이자 학제간 예술 작품이다. 특히 본 작품은 일종의 ‘인간언어사전'을 제공함으로써 외계지성체가 인간의 언어로 표현된 메시지를 해독할 수 있게끔 하는 것을 목표로 한다. 
+          <br><br>
+          천문학자 칼 세이건의 코스모스에 대한 메시지를 시작으로, ＜세계인권선언문＞, 시인 윤동주의 ＜별 헤는 밤＞ 그리고 인공지능 챗GPT가 작성한 ‘사랑'에 대한 정의까지 본 작품은 인간이 지닌 독특한 문화와 개념 그리고 정서를 표현한 여러 텍스트들과 이 텍스트들을 구성하는 어휘에 대한 정보를 외계지성체에게 함께 전달함으로써 궁극적으로 외계지성체가 인간의 언어와 그 언어가 기반하는 인간의 사고방식 그리고 더 나아가 인간 그 자체를 깊이 이해할 수 있게 만드는 것을 목표로 한다. 그리고 이를 통해 외계지성체와 인류가 천문학적 시공간을 넘어 함께 소통하는 미래를 꿈꾼다.
+        </p>
+        </p>
+      </div>
     </div>
-  </div>
+    
+    <br><br>
+    <br><br>
+    <br>
   
-  <br><br>
-  <hr>
-  <br><br>
-  
-  <h2>3. 컴퓨터 음악과 오디오비주얼, 2014~2017</h2>
-  <div class="container">
-    <div class="text-container">
-      <p>
-        언해피서킷은 글리치, 노이즈 사운드를 기반으로 하는 실험적 컴퓨터 음악으로 그의 창작 활동을 시작하였다. 
-        한국의 언더그라운드 전자음악 씬에서 활동을 이어오던 그는 이후 컴퓨터 알고리듬을 기반으로 하는 오디오비주얼의 방법론과 표현형식을 탐구하며 뉴미디어 아트 분야로 활동 범위를 확장시켜나간다.
-      </p>
+    <img src="./img/3-2-1.jpg" class="img1">
+    <div class="container">
+      <div class="text-container">
+        <p>
+          <h3>＜사람의 언어와 삶에 대한 우주언어인류학적 데이터＞, 2023</h3>
+          <h4>Astro-linguistic-anthropological Data on Human Language and life</h4>
+          <br>
+          - 외계지성체에게 인간의 언어와 삶에 대한 정보를 전달하기 위해 구성한 멀티모달 데이터
+          <br>
+          - 디지털 사진, 그래픽, 텍스트, 음성 녹음물
+          <br>
+          - 세종문화회관 미술관 전시
+          <br>
+          - 서울문화재단 제작 지원
+          <br>
+          - 아트워크 비디오: <a href="https://youtu.be/NTa6oJFxxlE" target="_blank">https://youtu.be/NTa6oJFxxlE</a>
+        </p>
+      </div>
     </div>
-  </div> 
+    <div class="container">
+      <div class="text-container">
+        <p>
+          ＜사람의 언어와 삶에 대한 우주언어인류학적 데이터＞는 인간의 언어와 삶을 외계지성체가 이해할 수 있게끔 하기 위한 멀티모달 데이터를 개발하고 이를 우주로 전송하는 것을 목표로 하는 다학제 예술 프로젝트이다. 
+          <br><br>
+          인간의 언어와 사고는 서로가 서로에게 영향을 끼치는 긴밀한 상호작용의 관계를 이룬다. 인간을 이해하는데 있어서 언어는 분명 간과해서는 안 될 중요한 요소라 할 수 있는 것이다. 언젠가 외계지성체와 인류가 서로의 존재를 확인하고 둘 사이의 천문학적 시공간을 넘는 대화를 시작하게 되었을 때, 서로의 언어는 서로를 온전히 이해하는 과정에 있어서 반드시 맞닥뜨리게 될 중요한 주제가 될 것이다.
+          이에 본 프로젝트는 외계지성체가 지구의 옛 노래인 ＜노를 저어라＞의 노랫말을 이해할 수 있게끔 하기 위한 일종의 언어 사전을 구성한다. 이 노랫말은 단순한 구조로 이루어진 동시에 인간의 언어와 사고방식이 지닌 독특한 특징을 잘 나타낸다.
+          <br><br>
+          또한 본 프로젝트는 지구에서 이루어지는 한 평범한 인간의 삶의 모습을 외계지성체에게 전한다. 외계지성체와 인류 사이의 유일한 공통점은 어쩌면 한 행성에 고립된 채 찰나와도 같은 시간을 살고 사라지는, 이 광대한 우주에 비해 한없이 미약한 존재라는 것일지도 모른다. 본 프로젝트는 바로 이러한 ‘삶’에 대한 메시지를 우주에 전함으로써 이 우주를 함께 살아가는 모든 외로운 존재들 사이의 '우주적 공감대'를 형성하고자 하는 것이다.
+          <br><br>
+          ‘우주언어인류학’이 탐구하는 주제는 결국 ‘외계지성체와 인간이 서로를 어떻게 이해할 것인가’에 관한 것이다. 이에 대한 답을 찾기 위해서는 무엇보다 ‘인간은 어떠한 존재인가’라는 질문에 대한 우리 자신의 대답을 먼저 고민해야 할 것이다. 우리는 우리 자신에 대해 얼마나 잘 알고 있을까? 그리고 이를 외계지성체에게 어떻게 설명할 것인가? 외계지성체의 언어는 우리에게, 그리고 우리 인간의 언어는 외계지성체에게 얼마나 이상한 언어로 인식될 것인가? 서로의 삶은 얼마나 비슷하고 또 얼마나 다른 모습일까? 과연 이 둘은 서로의 생물학적, 언어적, 문화적 그리고 정신적 차이를 극복하고 서로를 이해할 수 있게 될까? 이해한다는 것은 과연 무엇을 의미하는 것일까? 본 프로젝트는 바로 이러한 근원적 질문들을 탐구함으로써 우리 자신에 대한 우주적 관점으로의 전환을 유도하는 한편, 언어와 소통 그리고 이해에 관한 우리의 인식을 확장해 나가는 동시에, 인간의 삶과 정신 그리고 존재의 의미를 광대한 우주와 연결한다.
+        </p>
+        </p>
+      </div>
+    </div>
+    
+    <br><br>
+    <br><br>
+    <br>
+    -->
+    
+    <img src="./img/3-1-1.jpg" class="border img4">
+    <br><br>
+    <img src="./img/3-1-2.jpg" class="img2">
+    <br><br>
+    <img src="./img/3-1-3.jpg" class="border img2">
+    <div class="container">
+      <div class="text-container">
+        <p>
+          <h3>＜1 HUMAN MESSAGE＞, 2023</h3>
+          <br>
+          - 외계지성체에게 한 인간이 살아온 시간에 대한 정보를 전달하기 위해 구성한 텍스트 데이터와 이를 우주로 전송한 기록
+          <br>
+          - 디지털 텍스트 데이터, 전자 장치, 기록 사진
+          <br>
+          - 과학책방 갈다, Institut Français Indonesia(인도네시아) 전시
+          <br>
+          - 한국문화예술위원회 제작 지원
+          <br>
+          - 아트워크 비디오: <a href="https://youtu.be/jkJVDbeOHIs" target="_blank">https://youtu.be/jkJVDbeOHIs</a>
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="text-container">
+        <p>
+          광대한 우주에 비해 우리 인간은 찰나와도 같은 시간을 살고 사라진다. 이 우주에서 인간은 본질적으로 유한하고 미약하며 외로운 존재인 것이다. 그렇기 때문에 우리는 본능적으로 우주와 연결될 수 있기를 바란다. 찰나와 같은 우리의 삶이 이 우주에서 어떤 의미를 지닐 수 있기를 바라기 때문이다.
+          <br><br>
+          프로젝트 ＜1 HUMAN MESSAGE＞는 한 인간이 살아온 ‘시간’에 대한 짧은 기록이자 데이터인 ＜1 HUMAN MESSAGE＞를 광대한 우주에 남기기 위한 다원 우주예술 프로젝트이다. ＜1 HUMAN MESSAGE＞는 지구의 한 평범한 인간이 존재한 시간을 우주적 시간과 연결한다. 그리고 언해피서킷은 직접 제작한 이동식 심우주 데이터 송수신 장치를 가지고 지구 곳곳을 여행하며 우주를 향해 이 메시지를 전송하는 작업을 수행한다. 이는 한 인간으로서 가장 먼 우주까지 도달하고자 하는 노력이자, 우주로부터 시작되었지만 언젠가부터 우주와 단절된 모든 인간의 삶과 정신 그리고 존재의 의미를 우주로 확장하기 위함인 동시에, 거대한 침묵을 넘어 이 우주의 모든 외로운 존재들의 우주적 연결을 이루기 위한 여정이다.
+        </p>
+      </div>
+    </div>
+    
+    <br><br>
+    <hr>
+    <br><br>
 
-  <img src="./img/1-2.jpg" class="img2">
-  <div class="container">
-    <div class="text-container">
-      <p>
-        <h3>＜Music of Memories＞, 2017</h3>
-        <br>
-        - 디지털화된 인간의 언어와 컴퓨터 메모리 프로세스의 관계 시청각화
-        <br>
-        - 2채널 프로젝션, 4채널 사운드, 20분
-        <br>
-        - 국립아시아문화전당 예술극장 전시
-        <br>
-        - 국립아시아문화전당 제작 지원
-        <br>
-        - 아카이브 영상: <a href="https://youtu.be/QK3PQacIgA0" target="_blank">https://youtu.be/QK3PQacIgA0</a>
-      </p>
+    <!--
+    <div class="container">
+      <div class="text-container">
+        <p>
+          <h3>＜지구 언어로 쓰인 인터스텔라 메시지＞ 연작, 2020~2022</h3>
+          <h4>Series of ＜Interstellar Message Written in Languages of the Earth＞</h4>
+        </p>
+        <p>
+          언어는 그 언어를 사용하는 존재의 사고방식과 정서 그리고 문화와 상호작용한다. 이는 다른 존재를 진정으로 이해하기 위해서는 그 존재의 언어를 이해할 수 있어야 함을 의미한다.
+          <br><br>
+          본 연작은 외계지성체와의 소통을 위해 인간의 언어에 대한 구조화된 정보를 담은 ‘인터스텔라 메시지’를 발전시켜가는 과정이다. 특히 지구 언어의 다양성과 고유성을 인터스텔라 메시지에 반영하기 위해 소외된 세계의 언어들에 대한 관심을 지속적으로 확장해나가고 있다.
+          <br><br>
+          또한 본 연작은 지구의 기후 변화에 대한 메시지를 우주에 전한다. 인류의 현재를 상징하는 이 메시지는 이 우주를 살아가는 문명 대 문명으로서 외계지성체와 인류 사이의 공감대를 형성하는 동시에, 인류에 대한 우리 스스로의 관점을 외계지성체의 관점, 즉 우주적 관점으로 전환한다. 먼 우주를 향하는 인터스텔라 메시지는 사실 우리 자신을 향하는 우주의 메아리이다.
+        </p>
+      </div>
     </div>
-  </div>
-  <div class="container">
-    <div class="text-container">
-      <p>
-        모스 코드와 컴퓨터의 논리 체계는 정보를 2진법으로 디코딩한다는 측면에서 깊은 유사성을 지닌다. 특히 인간의 언어를 디지털화하는 모스 코드는 그 자체로 컴퓨터와 인간의 언어를 연결하는 매개언어가 된다.
-        <br><br>
-        본 작품에서 모스 코드로 디지털화된 인간의 언어는 프로그래밍된 오디오비주얼 알고리듬에 의해 컴퓨터의 메모리 프로세스로 변화한다. 그리고 이는 다시 점차 인간의 기억을 닮아간다. 
-        <br><br>
-        이처럼 본 작품은 모스 코드를 통해 인간과 컴퓨터 사이의 경계를 해체함으로써 언어와 코드, 기억과 데이터 그리고 인간과 컴퓨터를 긴밀하게 연결한다.
-      </p>
+    
+    <img src="./img/3-0-2.jpg" class="img2">
+    <div class="container">
+      <div class="text-container">
+        <p>
+          <h3>＜9개의 지구 언어로 쓰인 인터스텔라 메시지＞, 2022</h3>
+          <h4>Interstellar Message Written in 9 Languages of the Earth</h4>
+          <br>
+          - 외계지성체에게 인간의 언어와 인류 문명에 관한 정보를 전달하기 위한 2차원의 디지털 데이터
+          <br>
+          - 1채널 비디오, 2채널 사운드, 14분 56초
+          <br>
+          - C-LAB(대만) 전시
+          <br>
+          - 국립아시아문화전당 제작 지원
+          <br>
+          - 아카이브 영상: <a href="https://youtu.be/43SlQ2M4nTg" target="_blank">https://youtu.be/43SlQ2M4nTg</a>
+        </p>
+      </div>
     </div>
-  </div>
-  
-  <br><br>
-  <br><br>
-
-  <img src="./img/1-1.jpg" class="border img1">
-  <div class="container">
-    <div class="text-container">
-      <p>
-        <h3>＜Just Waiting for a Happy Ending＞, 2014</h3>
+    
+    <br><br>
+    <br><br>
+    
+    <img src="./img/3-0-1.jpg" class="img2">
+    <div class="container">
+      <div class="text-container">
+        <p>
+          <h3>＜한글로 쓰인 별 사이 쪽글＞, 2020</h3>
+          <h4>Interstellar Message Written in Hangeul</h4>
+          <br>
+          - 외계지성체에게 인간의 언어와 인류 문명에 관한 정보를 전달하기 위한 1차원의 디지털 데이터
+          <br>
+          - 디지털 텍스트, 3채널 비디오, 2채널 사운드, 32분
+          <br>
+          - 국립중앙도서관, 현대자동차 ZER01NE 전시
+          <br>
+          - 현대자동차 ZER01NE 제작 지원
+          <br>
+          - 아카이브 영상: <a href="https://youtu.be/wvC5neCteEs" target="_blank">https://youtu.be/wvC5neCteEs</a>
+        </p>
+      </div>
+    </div>
+    
+    <br><br>
+    <hr>
+    <br><br>
+    -->
+    
+    <h2>2. 인공지능, 2018~2019</h2>
+    <div class="container">
+      <div class="text-container">
+        <p>
+          2018년에서 2019년 사이에 언해피서킷은 그의 작품의 주요한 주제이자 매체로서 ‘인공지능’에 집중하였다. 
+          그는 인공지능을 ‘새로운 인간으로서의 인공지능’, ‘인간을 보완하는 테크놀로지로서의 인공지능’ 그리고 ‘인간을 비추는 거울과 같은 존재로서의 인공지능’이라는 세가지의 큰 관점으로 구분한다.
+          <br><br>
+          먼저 ‘새로운 인간으로서의 인공지능’이라 함은 말그대로 인간과 같은 혹은 인간을 초월하는 존재로 진화한 새로운 지적 존재로서의 인공지능을 의미한다. 즉, 진정한 포스트 휴먼으로서의 인공지능을 의미하는 것이다. 
+          반면 ‘인간을 보완하는 테크놀로지로서의 인공지능’은 인공지능을 하나의 새로운 도구로서 인식하는 관점을 의미한다. 앞선 관점이 SF적 미래관에 기반한 관점이라면, 도구로서의 인공지능은 현 시대의 인공지능에 대한 관점이다. 
+          마지막으로 ‘인간을 비추는 거울로서의 인공지능’은 인공지능에 대한 인문학적 또는 예술적 관점이자 해석이다. 인공지능이 학습하는 데이터는 사실 우리 인간에 관한 것이다. 
+          인공지능은 데이터를 통해 바로 우리 인간에 대해 학습을 하고 있는 것이다. 이러한 인공지능이 생성한 결과물은 그 자체로 우리 인간의 모습을 거울처럼 드러낸다.
+          <br><br>
+          결국 언해피서킷에게 인공지능은 언젠가 새로운 인간이 될지도 모를 가능성을 지닌 존재인 동시에, 현재 우리의 삶에 가장 큰 영향을 끼치는 테크놀로지인 한편, 우리 인간의 모습을 비추며 ‘인간성이란 무엇인가?’에 대해 질문하는 예술적 매개체이다.
+        </p>
+      </div>
+    </div>
+    
+    <br><br>
+    <br><br>
+    
+    <img src="./img/2-3.jpg" class="img2">
+    <div class="container">
+      <div class="text-container">
+        <p>
+          <h3>＜A Synthetic Song Beyond the Sea＞, 2019</h3>
+          <br>
+          - 인공지능을 활용해 흰수염고래의 발성음과 인간의 음악을 합성하여 만든 앰비언트 음악
+          <br>
+          - 2채널 프로젝션, 2채널 사운드, 4분 29초
+          <br>
+          - 제주현대미술관 소장
+          <br>
+          - 제주현대미술관, APAP7, 부천아트벙커 B39, 아트센터나비, Bangalore International Centre(인도) 전시
+          <br>
+          - 한국콘텐츠진흥원 및 아트센터나비 제작 지원
+          <br>
+          - 아카이브 영상: <a href="https://youtu.be/SmEvkJTvBaA" target="_blank">https://youtu.be/SmEvkJTvBaA</a>
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="text-container">
+        <p>
+          고래는 인간과 마찬가지로 감정을 느끼고 표현할 수 있으며, 복잡한 사회를 이루며 살아가고, 소통을 위한 언어 체계를 가지고 있다. 그리고 인간을 포함한 지구 상의 모든 포유류와 한 조상을 공유하며 함께 진화해왔다. 하지만 인간은 오래전부터 고래의 생존을 위협해왔으며 이는 오늘날까지도 여전히 지속되고 있다.
+          <br><br>
+          본 작품은 인공지능을 활용해 흰수염고래의 발성음과 인간의 음악을 합성하여, 고래와 인간이 함께 듣고 교감할 수 있는 새로운 차원의 음악을 만들어내고자 한 시도이다. 이를 통해 본 작품은 고래와 인간이 서로를 이해하며 함께 공존해나가는 미래를 그린다. 
+          <br><br>
+          고래의 삶과 죽음을 통해 우리는 인간성의 진실한 모습을 마주할 수 있게 된다. 이는 서로를 이해하지 못해 일어난 인류 역사의 수많은 비극과 여전히 우리 스스로를 파괴할 가능성을 지닌 채 살아가는 현대 인류 문명의 모습과도 결코 무관하지 않다.
+        </p>
+      </div>
+    </div>
+    
+    <br><br>
+    <br><br>
+    
+    <img src="./img/2-2.jpg" class="img2">
+    <div class="container">
+      <div class="text-container">
+        <p>
+          <h3>＜Learning About Humanity＞, 2019</h3>
+          <br>
+          - 인공지능이 생성한 레시피를 따라 닭고기 음식을 요리하는 퍼포먼스
+          <br>
+          - 라이브 퍼포먼스, 2채널 프로젝션, 4채널 사운드, 20분
+          <br>
+          - 국립아시아문화전당, 인사미술공간 전시
+          <br>
+          - 국립아시아문화전당 제작 지원
+          <br>
+          - 아카이브 영상: <a href="https://youtu.be/95iyi_BfDN4" target="_blank">https://youtu.be/95iyi_BfDN4</a>
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="text-container">
+        <p>
+          한해 약 650억 마리가 도축되는 닭은 ‘인류세’의 상징으로 여겨진다. 이처럼 닭고기로 대표되는 풍요의 시대가 지속되면서, 우리는 일상에서 흔히 접하는 고기가 한때는 살아있는 생물이었다는 사실도 망각하게 된다. 
+          무엇보다 가축의 사육 및 도축 과정에서 필연적으로 발생하지만 우리가 애써 외면해온 불편한 진실은 우리 스스로에게 인간성에 대해 다시금 질문하게 만든다.
+          <br><br>
+          인공지능은 방대한 양의 데이터를 통해 바로 우리 인간을 학습한다. 이러한 인공지능이 생성한 결과물은 그 자체로 우리 인류의 모습을 거울처럼 비춘다. 
+          결국 인공지능이 생성한 닭고기 요리는 풍요로운 현대 인류 문명의 이면에 감춰진 인간성의 진실한 모습을 드러내는 ‘인간성의 거울’이다.
+        </p>
+      </div>
+    </div>
+    
+    <br><br>
+    <br><br>
+    
+    <img src="./img/2-1.jpg" class="img2">
+    <div class="container">
+      <div class="text-container">
+        <p>
+          <h3>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp ＜i Remember＞, 2019 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</h3>
+          <br>
+          - 인간의 기억을 학습한 인공지능이 생성한 이미지와 사운드
+          <br>
+          - 1채널 비디오, 2채널 사운드, 20분
+          <br>
+          - 플랫폼엘 컨템포러리 아트센터 전시
+          <br>
+          - 한국문화예술위원회 제작 지원
+          <br>
+          - 아카이브 영상: <a href="https://youtu.be/ncnhnyX4WmY" target="_blank">https://youtu.be/ncnhnyX4WmY</a>
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="text-container">
+        <p>
+          우리 인간에게 있어 기억이란 곧 자신의 정체성을 의미한다. 기억을 잃는다는 것은 결국 자신 자신을 잃는다는 것과 같은 것이다. 기억은 결국 우리의 인생 그 자체이다. 
+          하지만 인간의 기억은 불완전하다. 그렇기 때문에 인간은 오래 전부터 각종 매체에 자신의 기억을 기록하고 보존해왔다. 선사시대의 동굴 벽화에서부터 컴퓨터 메모리에 이르기까지, 기술의 발전과 함께 인간은 기억을 저장하는 뇌의 영역을 새로운 매체로 확장시키며 급격히 진화해온 것이다. 
+          <br><br>
+          그리고 이러한 인간의 진화는 이제 인공지능에까지 확장되고 있다. 과연 기억에는 그 경험의 순간만이 가지는 형언할 수 없는 특성이 존재하는 것일까? 아니면 언제나 복사와 전송이 가능한 데이터에 불과한 것일까? 
+          만약 기억이 데이터에 불과하다면, 인공지능은 인간의 기억을 학습할 수 있을까? 만약 인공지능이 인간의 기억을 학습할 수 있다면, 나의 기억을 학습한 인공지능은 바로 ‘나’인가?
+          <br><br>
+          본 작품에서 인공지능은 바로 작가의 어머니에 대한 디지털화된 기억 데이터를 학습하고 이를 바탕으로 새로운 이미지와 사운드를 생성해낸다. 이 생성물은 작가의 기억인가? 아니면 인공지능의 기억인가?
+        </p>
+      </div>
+    </div>
+    
+    <br><br>
+    <hr>
+    <br><br>
+    
+    <h2>3. 컴퓨터 음악과 오디오비주얼, 2014~2017</h2>
+    <div class="container">
+      <div class="text-container">
+        <p>
+          언해피서킷은 글리치, 노이즈 사운드를 기반으로 하는 실험적 컴퓨터 음악으로 그의 창작 활동을 시작하였다.
+          한국의 언더그라운드 전자음악 씬에서 활동을 이어오던 그는 이후 컴퓨터 알고리듬을 기반으로 하는 오디오비주얼의 방법론과 표현형식을 탐구하며 뉴미디어 아트 분야로 활동 범위를 확장시켜나간다.
+        </p>
+      </div>
+    </div>
+    
+    <img src="./img/1-2.jpg" class="img2">
+    <div class="container">
+      <div class="text-container">
+        <p>
+          <h3>＜Music of Memories＞, 2017</h3>
+          <br>
+          - 디지털화된 인간의 언어와 컴퓨터 메모리 프로세스의 관계 시청각화
+          <br>
+          - 2채널 프로젝션, 4채널 사운드, 20분
+          <br>
+          - 국립아시아문화전당 예술극장 전시
+          <br>
+          - 국립아시아문화전당 제작 지원
+          <br>
+          - 아카이브 영상: <a href="https://youtu.be/QK3PQacIgA0" target="_blank">https://youtu.be/QK3PQacIgA0</a>
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="text-container">
+        <p>
+          모스 코드와 컴퓨터의 논리 체계는 정보를 2진법으로 디코딩한다는 측면에서 깊은 유사성을 지닌다. 특히 인간의 언어를 디지털화하는 모스 코드는 그 자체로 컴퓨터와 인간의 언어를 연결하는 매개언어가 된다.
+          <br><br>
+          본 작품에서 모스 코드로 디지털화된 인간의 언어는 프로그래밍된 오디오비주얼 알고리듬에 의해 컴퓨터의 메모리 프로세스로 변화한다. 그리고 이는 다시 점차 인간의 기억을 닮아간다. 
+          <br><br>
+          이처럼 본 작품은 모스 코드를 통해 인간과 컴퓨터 사이의 경계를 해체함으로써 언어와 코드, 기억과 데이터 그리고 인간과 컴퓨터를 긴밀하게 연결한다.
+        </p>
+      </div>
+    </div>
+    
+    <br><br>
+    <br><br>
+    
+    <img src="./img/1-1.jpg" class="border img1">
+    <div class="container">
+      <div class="text-container">
+        <p>
+          <h3>＜Just Waiting for a Happy Ending＞, 2014</h3>
           <br>
           - ＜2014년 올해의 국내 일렉트로닉 앨범＞ 선정, 웹진 [weiv]
           <br>
@@ -509,31 +488,30 @@ hr {
           - 비평(음악취향Y): <a href="https://cafe.naver.com/musicy/18515">https://cafe.naver.com/musicy/18515</a>
           <br>
           - 뮤직비디오: <a href="https://youtu.be/SqtouftaqII" target="_blank">https://youtu.be/SqtouftaqII</a>
-       </p>
+        </p>
+      </div>
     </div>
-  </div>
-  <div class="container">
-    <div class="text-container">
-      <p>
-        ＜Just Waiting for a Happy Ending＞은 2014년에 발표된 언해피서킷의 데뷔 앨범이다. 이 시기의 그의 음악은 ‘우울한 기계소년의 감정’을 글리치, 노이즈 사운드로 표현한 것으로, ‘언해피서킷'이라는 그의 이름 역시 이와 연관된다.
-        <br><br>
-        특히 그는 이 앨범에서 ‘글리치’라는 실험적 사운드 테크닉을 고독, 슬픔, 우울과 같은 정서와 연결하여 하나의 서사적 완결성을 지닌 음악으로 완성하는데 집중하였다. 이는 마치 차가운 기계에 인간의 감정을 심는 과정이었으며, 고장난 내면의 소리를 온전히 담아내기 위한 치열한 노력이었다.
-        <br><br>
-        <i>
-        “소음, 곧 음악으로서는 꽤 낯선 새로운 소리들은 청각의 긴장감을 바짝 조인다. ‘음(音)’이 ‘악(樂)’이 될 수 있는 까닭은 서사의 상존 덕이다. 단음계를 오고가는 느릿한 건반 음뿐만이 아니라 작은 배경음마저 고저장단의 미세한 조율을 거침으로써, 피로하지 않은 흐름을 만들어낸다.” - 정병욱, 음악취향Y 에디터
-        <br><br>
-        “글리치한 사운드와 파시식하는 노이즈 사이에서도 명료한 건반음이 당신의 감수성 안에 끊임없이 개입하겠다는 의지를 잃지 않는다. 군데군데 절단되어 있고, 훼손된 듯 보이지만 여전히 듣는(보는) 이의 집중력을 놓지 못하게 만든다. 섹스도 있고 멜랑콜리도 있다. 온건한 음악이자 좋은 음악이다.” - 박병운, 음악취향Y 에디터
-        </i>  
-      </p>
+    <div class="container">
+      <div class="text-container">
+        <p>
+          ＜Just Waiting for a Happy Ending＞은 2014년에 발표된 언해피서킷의 데뷔 앨범이다. 이 시기의 그의 음악은 ‘우울한 기계소년의 감정’을 글리치, 노이즈 사운드로 표현한 것으로, ‘언해피서킷'이라는 그의 이름 역시 이와 연관된다.
+          <br><br>
+          특히 그는 이 앨범에서 ‘글리치’라는 실험적 사운드 테크닉을 고독, 슬픔, 우울과 같은 정서와 연결하여 하나의 서사적 완결성을 지닌 음악으로 완성하는데 집중하였다. 이는 마치 차가운 기계에 인간의 감정을 심는 과정이었으며, 고장난 내면의 소리를 온전히 담아내기 위한 치열한 노력이었다.
+          <br><br>
+          <i>
+          “소음, 곧 음악으로서는 꽤 낯선 새로운 소리들은 청각의 긴장감을 바짝 조인다. ‘음(音)’이 ‘악(樂)’이 될 수 있는 까닭은 서사의 상존 덕이다. 단음계를 오고가는 느릿한 건반 음뿐만이 아니라 작은 배경음마저 고저장단의 미세한 조율을 거침으로써, 피로하지 않은 흐름을 만들어낸다.” - 정병욱, 음악취향Y 에디터
+          <br><br>
+          “글리치한 사운드와 파시식하는 노이즈 사이에서도 명료한 건반음이 당신의 감수성 안에 끊임없이 개입하겠다는 의지를 잃지 않는다. 군데군데 절단되어 있고, 훼손된 듯 보이지만 여전히 듣는(보는) 이의 집중력을 놓지 못하게 만든다. 섹스도 있고 멜랑콜리도 있다. 온건한 음악이자 좋은 음악이다.” - 박병운, 음악취향Y 에디터
+          </i>
+        </p>
+      </div>
     </div>
-  </div>
-  
-  <br><br>
-  <hr>
-  <br><br>
-  <h1><a href="https://www.instagram.com/unhappycircuit/" target="_blank" style="text-decoration: none; color: white;">@unhappycircuit</a></h1>
-  <br><br>
- 
-</body>
-  
+    
+    <br><br>
+    <hr>
+    <br><br>
+    <h1><a href="https://www.instagram.com/unhappycircuit/" target="_blank" style="text-decoration: none; color: white;">@unhappycircuit</a></h1>
+    <br><br>
+    
+  </body>
 </html>
